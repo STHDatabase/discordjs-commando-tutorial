@@ -18,7 +18,7 @@ client.on('ready', () => {
     console.log("Bot has logged in.");
 });
 
-bot.on("ready", async () => {
+client.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
   bot.user.setActivity(`Sonic Adventure`);
 });
