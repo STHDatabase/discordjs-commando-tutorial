@@ -20,5 +20,5 @@ client.on('ready', () => {
 
 client.on("ready", async () => {
   console.log(`${client.user.username} is online!`);
-  client.user.setActivity(`Sonic Adventure`);
+  client.user.setActivity(`Sonic The Hedgehog 3`);
 });
